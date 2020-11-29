@@ -70,7 +70,7 @@ Use Postman to test the API.
 
 ### To register a user:
 
-![alt text](https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-1.png)
+<kbd><img src="https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-1.png" /></kbd>
 
 ### To login with a user:
 
