@@ -21,7 +21,9 @@ $ git clone https://github.com/tcrurav/laravel8APIAuthPassport.git
 
 Open the created folder with your favourite editor/IDE. I have used Visual Studio Code for this project.
 
-Make a copy of the file .env.example and name it file .env. After that edit the file with the data to connect to your MySQL database:
+Make a copy of the file .env.example and name it as .env. 
+
+After that edit the file with the data necessary to connect to your MySQL database:
 
 ```
 DB_CONNECTION=mysql
@@ -77,6 +79,8 @@ Use Postman to test the API.
 ![alt text](https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-2.png)
 
 ### To use the token to get all products: (At the beginning there are no products in DB)
+
+It's important to notice that here and in the rest of steps I'm using the token recieved when the user logs in.
 
 ![alt text](https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-3.png)
 
