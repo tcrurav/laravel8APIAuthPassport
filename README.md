@@ -68,31 +68,31 @@ Use Postman to test this project as done in the following section.
 
 Use Postman to test the API.
 
-To register a user:
+### To register a user:
 
 ![alt text](https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-1.png)
 
-To login with a user:
+### To login with a user:
 
 ![alt text](https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-2.png)
 
-To use the token to get all products: (At the beginning there are no products in DB)
+### To use the token to get all products: (At the beginning there are no products in DB)
 
 ![alt text](https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-3.png)
 
-To create a product:
+### To create a product:
 
 ![alt text](https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-4.png)
 
-To use the token to get all products again: (now there's a product in DB)
+### To use the token to get all products again: (now there's a product in DB)
 
 ![alt text](https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-5.png)
 
-To use the token to update a product:
+### To use the token to update a product:
 
 ![alt text](https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-6.png)
 
-To use the token to delete a product:
+### To use the token to delete a product:
 
 ![alt text](https://github.com/tcrurav/laravel8APIAuthPassport/blob/master/screenshots/screenshot-7.png)
 
@@ -351,7 +351,7 @@ class ProductController extends Controller
       "data" => $products
     ]);
   }
-  
+
   /**
    * Store a newly created resource in storage.
    *
