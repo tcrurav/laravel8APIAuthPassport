@@ -52,6 +52,12 @@ Now go to the directory which contains the cloned project:
 cd laravel-products
 ```
 
+Install all project packages:
+
+```
+composer install
+```
+
 Run the migrations to create all tables (check with MySQL Workbench that all tables were created):
 
 ```
